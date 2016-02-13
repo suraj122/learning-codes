@@ -148,7 +148,7 @@ row
 */
 .row,
 .row-alt {
-  min-width: 960;
+  min-width: 960px;
 }
 .row {
   background: #fff;
@@ -282,6 +282,14 @@ navigation
 .primary-footer a:hover{
   color: #648880;
 }
+.nav li{
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+.nav li:last-child{
+  margin-right: 0;
+}
 /*
 ===================
 lead
@@ -293,4 +301,16 @@ lead
 .lead p {
   font-size: 21px;
   line-height: 33px;
+}
+/*
+==================
+speakers-info
+==================
+*/
+.speakers-info{
+  border: 1px solid #dfe2e5;
+  border-radius: 5px;
+  padding: 22px 0;
+  margin-top: 88px;
+  text-align: center;
 }
